@@ -1,21 +1,90 @@
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
-      text-align: center;
-      padding: 50px;
-    }
-    h1 {
-      color: #333;
-    }
-    button {
-      padding: 10px 20px;
-      font-size: 16px;
-      background-color: #008cba;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #005f5f;
-    }
+/* Общие стили для всех элементов */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Основной фон */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Ссылки */
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Контейнер с отступами */
+.container {
+    padding: 50px;
+}
+
+/* Хедер */
+header {
+    display: flex;
+    background-color: #fff;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Навигация */
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+/* Hero Section */
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+   
+}
+
+.text-container h1 {
+    font-size: 50px;
+}
+
+.text-container p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Кнопки */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #005f5f;
+}
+
+button:active {
+    background-color: #003d3d;
+}
+
+/* Изображение */
+img {
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+}
